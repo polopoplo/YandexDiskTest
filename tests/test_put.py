@@ -1,10 +1,8 @@
-import uuid
 from utils.api import create_folder
 
 
 
-def test_create_folder():
-    folder_name = f"test_folder{uuid.uuid4()}"
+def test_create_folder(folder_name):
     response = create_folder(folder_name)
 
     if response.status_code == 201:

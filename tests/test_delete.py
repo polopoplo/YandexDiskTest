@@ -1,8 +1,6 @@
-import uuid
 from utils.api import create_folder, delete_folder
 
-def test_create_delete_folder():
-    folder_name = f"test_create{uuid.uuid4()}"
+def test_create_delete_folder(folder_name):
 
     create_response = create_folder(folder_name)
     assert create_response.status_code == 201

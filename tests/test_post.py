@@ -1,9 +1,7 @@
-import uuid
 from utils.api import create_folder, public
 
-def test_public_folder():
+def test_public_folder(folder_name):
 
-    folder_name = f"test_folder{uuid.uuid4()}"
 
     create = create_folder(folder_name)
     assert create.status_code == 201
