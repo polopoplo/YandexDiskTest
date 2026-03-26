@@ -1,11 +1,13 @@
 # Автотесты для Yandex Disk API
 
-Проект с тестами API Яндекс.Диска на Python + pytest + requests.
+Проект с тестами API Яндекс.Диска на Python + pytest + requests + Docker + GitHub Actions.
 
 ## Стек
 - Python 3.11
 - pytest
 - requests
+- Docker
+- GitHub Actions
 
 
 ## Что тестирую
