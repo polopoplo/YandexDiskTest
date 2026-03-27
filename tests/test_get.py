@@ -6,7 +6,7 @@ def test_get_responces():
 
     try:
         assert response.status_code == 200
-        print("Успешно!!!")
+        print("\nУспешно!!!")
     except AssertionError:
-        print(f"Провал(: причина {response.status_code})")
+        print(f"\nПровал(: причина {response.status_code})")
         raise
